@@ -31,10 +31,10 @@ public class BuyNow {
 		System.out.println("Updated");
 		System.out.println("Updated");
 		System.out.println("Updated");
-		System.out.println("Updated");
-		System.out.println("Updated");
-		System.out.println("Updated");
-		System.out.println("Updated");
+		System.out.println("aaaaaaa");
+		System.out.println("bbbbbbb");
+		System.out.println("ccccccc");
+		System.out.println("ddddddd");
 
 		
 		driver.findElement(By.id("userEmail")).sendKeys("rajashree@gmail.com");
