@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel = "tests" name="Suite">
+
+<listeners>
+<listener class-name="groupid.TestComponents.Listeners"/>
+</listeners>
+
+  <test thread-count="5" name="Place Order Test">
+    <classes>
+      <class name="groupid.LetsShop.PlaceOrderTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="Error Validations Test">
+    <classes>
+      <class name="groupid.LetsShop.ErrorValidationsTest"/>
+    </classes>
+  </test> <!-- Test -->
+ 
+  
+  
+  
+</suite> <!-- Suite -->
