@@ -28,9 +28,7 @@ public class BuyNow {
 		// driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://rahulshettyacademy.com/client/");
 
-		System.out.println("Updated");
-		System.out.println("Updated");
-		System.out.println("Updated");
+	
 		System.out.println("aaaaaaa");
 		System.out.println("bbbbbbb");
 		System.out.println("ccccccc");
