@@ -35,6 +35,8 @@ public class BuyNow {
 		System.out.println("bbbbbbb");
 		System.out.println("ccccccc");
 		System.out.println("ddddddd");
+		System.out.println("eeeeeeee");
+
 
 		
 		driver.findElement(By.id("userEmail")).sendKeys("rajashree@gmail.com");
