@@ -27,6 +27,10 @@ public class BuyNow {
 		WebDriver driver = new ChromeDriver();
 		// driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://rahulshettyacademy.com/client/");
+
+		System.out.println("Updated");
+		System.out.println("Updated");
+		System.out.println("Updated");
 		
 		driver.findElement(By.id("userEmail")).sendKeys("rajashree@gmail.com");
 		driver.findElement(By.id("userPassword")).sendKeys("Rajashree@4");
